@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--第一种绑定事件的方式
+问题1.html和JavaScript代码冗余，不方便于管理
+<img src="../_1128/img/background.jpg" onclick="fun1();">
+
+<script>
+    var fun1 = function(){
+    alert("jolie feuille");
+    }
+</script>
+ -->
+
+<!--第二种绑定是事件的方式-->
+<img id="image" src="../_1128/img/background.jpg">
+
+<script>
+
+    var fun2 = function(){
+    image.src = "../_1128/img/chien.jpeg";    //.src是用来改变图片路径的
+    }
+    var image = document.getElementById("image");
+    image.onclick = fun2;
+
+</script>
+
+</body>
+</html>

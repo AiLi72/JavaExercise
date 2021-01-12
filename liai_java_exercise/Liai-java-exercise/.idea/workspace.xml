@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a40ea5c-0f6f-4bdd-8ca3-4849dd3676ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1baLB6lC3yrPDuR8zDwU2Yy6sro" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.PLUGIN_MODULE" value="IntelliJ IDEA Community Edition IC-193.6494.35" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaWeb/src/_1223_Bootstrap" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1223_Bootstrap" />
+      <recent name="$PROJECT_DIR$/src/fr/database/libs" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1201" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1128/img" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/1128" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1128/img/lapin.jpg" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1128/lapin" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/_1129" />
+      <recent name="$PROJECT_DIR$/JavaWeb/src/1128/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JDBCTemplateTests.test6">
+    <configuration name="JDBCTemplateTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Liai-java-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.database._1220JDBCTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.database._1220JDBCTemplate" />
+      <option name="MAIN_CLASS_NAME" value="fr.database._1220JDBCTemplate.JDBCTemplateTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Liai-java-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.database._1220JDBCTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.database._1220JDBCTemplate" />
+      <option name="MAIN_CLASS_NAME" value="fr.database._1220JDBCTemplate.JDBCTemplateTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTests.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Liai-java-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.database._1220JDBCTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.database._1220JDBCTemplate" />
+      <option name="MAIN_CLASS_NAME" value="fr.database._1220JDBCTemplate.JDBCTemplateTests" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTests.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Liai-java-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.database._1220JDBCTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.database._1220JDBCTemplate" />
+      <option name="MAIN_CLASS_NAME" value="fr.database._1220JDBCTemplate.JDBCTemplateTests" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCTemplateTests.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Liai-java-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.database._1220JDBCTemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.database._1220JDBCTemplate" />
+      <option name="MAIN_CLASS_NAME" value="fr.database._1220JDBCTemplate.JDBCTemplateTests" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCTemplateTests.test6" />
+        <item itemvalue="JUnit.JDBCTemplateTests.test5" />
+        <item itemvalue="JUnit.JDBCTemplateTests.test4" />
+        <item itemvalue="JUnit.JDBCTemplateTests.test3" />
+        <item itemvalue="JUnit.JDBCTemplateTests.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a40ea5c-0f6f-4bdd-8ca3-4849dd3676ec" name="Default Changelist" comment="" />
+      <created>1588865118715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588865118715</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601241696627">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1601241696627" />
+    <state x="932" y="1335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606598321110">
+      <screen x="447" y="1080" width="1440" height="900" />
+    </state>
+    <state x="485" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1601240398165" />
+    <state x="932" y="1335" key="#com.intellij.fileTypes.FileTypeChooser/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606598321110" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1608512414914">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1608512414914" />
+    <state x="980" y="1221" key="#com.intellij.ide.util.MemberChooser/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606433939550" />
+    <state x="896" y="1226" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606532463857">
+      <screen x="447" y="1080" width="1440" height="900" />
+    </state>
+    <state x="896" y="1226" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606532463857" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608417367469">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1608417367469" />
+    <state x="483" y="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608747663179">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="483" y="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1608747663179" />
+    <state width="1398" height="337" key="GridCell.Tab.0.bottom" timestamp="1609288892398">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="337" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1609288892397" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606418312737" />
+    <state width="1398" height="71" key="GridCell.Tab.0.bottom/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503422" />
+    <state width="1398" height="337" key="GridCell.Tab.0.center" timestamp="1609288892368">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="337" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1609288892368" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606418312734" />
+    <state width="1398" height="71" key="GridCell.Tab.0.center/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503420" />
+    <state width="1398" height="337" key="GridCell.Tab.0.left" timestamp="1609288892204">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="337" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1609288892204" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606418312731" />
+    <state width="1398" height="71" key="GridCell.Tab.0.left/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503419" />
+    <state width="1398" height="337" key="GridCell.Tab.0.right" timestamp="1609288892392">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="337" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1609288892392" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606418312735" />
+    <state width="1398" height="71" key="GridCell.Tab.0.right/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503421" />
+    <state width="1398" height="278" key="GridCell.Tab.1.bottom" timestamp="1608514591694">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="278" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608514591694" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606417648023" />
+    <state width="1398" height="123" key="GridCell.Tab.1.bottom/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503412" />
+    <state width="1398" height="278" key="GridCell.Tab.1.center" timestamp="1608514591683">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="278" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1608514591683" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606417648020" />
+    <state width="1398" height="123" key="GridCell.Tab.1.center/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503410" />
+    <state width="1398" height="278" key="GridCell.Tab.1.left" timestamp="1608514591683">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="278" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1608514591683" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606417648019" />
+    <state width="1398" height="123" key="GridCell.Tab.1.left/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503409" />
+    <state width="1398" height="278" key="GridCell.Tab.1.right" timestamp="1608514591684">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="278" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1608514591684" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606417648021" />
+    <state width="1398" height="123" key="GridCell.Tab.1.right/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606530503411" />
+    <state x="817" y="1242" key="NewModule_or_Project.wizard" timestamp="1607302008155">
+      <screen x="447" y="1103" width="1440" height="877" />
+    </state>
+    <state x="817" y="1242" key="NewModule_or_Project.wizard/447.1103.1440.877/0.23.1920.1057@447.1103.1440.877" timestamp="1607302008155" />
+    <state x="676" y="1169" key="SettingsEditor" timestamp="1606614961412">
+      <screen x="447" y="1080" width="1440" height="900" />
+    </state>
+    <state x="676" y="1169" key="SettingsEditor/447.1080.1440.900/0.23.1920.1057@447.1080.1440.900" timestamp="1606614961412" />
+    <state x="569" y="127" width="782" height="825" key="find.popup" timestamp="1604355376082">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="569" y="127" width="782" height="825" key="find.popup/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604355376082" />
+    <state x="647" y="1140" width="1090" height="755" key="new project wizard" timestamp="1606532379440">
+      <screen x="447" y="1080" width="1440" height="900" />
+    </state>
+    <state x="199" y="72" key="new project wizard/447.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606530702397" />
+    <state x="647" y="1140" width="1090" height="755" key="new project wizard/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606532379440" />
+    <state x="647" y="1140" key="new project wizard/447.1080.1440.900/0.23.1920.1057@447.1080.1440.900" timestamp="1606531831047" />
+    <state x="385" y="214" width="670" height="659" key="search.everywhere.popup" timestamp="1608486733207">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="214" width="670" height="659" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1608486733207" />
+    <state x="832" y="1276" width="670" height="676" key="search.everywhere.popup/447.1080.1440.900/0.0.1920.1080@447.1080.1440.900" timestamp="1606693815343" />
+  </component>
+</project>

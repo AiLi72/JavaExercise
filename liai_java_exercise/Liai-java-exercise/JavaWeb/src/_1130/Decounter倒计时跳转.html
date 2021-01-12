@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        h2{
+            text-align:center;
+        }
+
+        span{
+            color:pink;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>il reste <span id="time">n</span> seconds pour aller au Baidu... </h2>    <!--注意span标签的用法-->
+
+<script>
+
+     var time = document.getElementById("time");  //在循环外面写time更好，不用一直循环浪费资源
+
+     var n = 5;
+     function fun (){
+        n--;
+            if (n < 0){
+               location.href = "https://www.baidu.com";    //⚠️这个方法也是等式的形式，而不是括号的形式！！！
+            } else {   //注意这里加一个else会好一点，因为如果if要执行的命令太卡的话，后面的额计数还是会进行
+            time.innerHTML = n+"";   //⚠️这里将数据变成字符串,innerHTML方法是等式的形式，而不是括号里写字符串的！！！
+            }
+     }
+
+     setInterval(fun,1000);
+</script>
+
+</body>
+</html>

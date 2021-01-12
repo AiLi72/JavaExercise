@@ -1,0 +1,140 @@
+<!--这篇有问题，未解决！！-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormCheck</title>
+    <style>
+
+        table{
+             margin:auto;
+             margin-top:25px;
+        }
+
+        td{
+            font-family:"Times New Roman";
+            font-size:30px;
+        }
+
+        #login{
+             margin: 25px;
+             text-align:center;
+             color:pink;
+        }
+
+        .layout{
+                width:1300px;
+                height:600px;
+                border:8px solid #EEEEEE;
+                background-color:white;
+                margin:auto;
+                margin-top:25px;
+            }
+
+        .left{
+            font-size:25px;
+            width:250px;
+            text-align:center;
+            height:70px;
+            padding-left:20px;
+        }
+
+        .right{
+            padding-right:30px;
+        }
+
+        .right input{
+        font-size:25px;
+        }
+
+        #submit{
+            font-size:25px;
+            width:150px;
+            text-align:center;
+            height:40px;
+            background-color:yellow;
+            color:black;
+            border:1px solid #FFD026;
+            border-radius:5px;
+        }
+
+        .error{
+            color:red;
+        }
+    </style>
+
+    <script>
+
+    window.onload = function(){
+
+        //给表单绑定onsubmit事件
+        //注意return后面的括号别少了，这是在调用方法
+       document.getElementById("submit").onclick = function(){
+            return checkUsername() && checkPassword();
+        }
+
+        //给用户名和密码分别绑定离焦事件,不然只有提交的时候才验证。⚠️等号后面等于的是这个方法对象，而不是一个方法，所以千万不要带（）！！！！
+        //这样写比较方便，不用再重复的写验证的方法了（⚠️我们发现无论是提交还是离焦都需要用到验证方法，所以我们把验证的方法单独拿出去写，谁用到谁就调用，而不是在判断提交和离焦的时候写方法）
+        document.getElementById("username").onblur = checkUsername;
+        document.getElementById("password").onblur = checkPassword;
+    }
+
+        //验证用户名
+       function checkUsername(){
+            var username = document.getElementById("username").value;
+            var reg_username = /^\w{5,12}$/;
+            var flag = reg_username.test(username);
+            if(flag){
+                    document.getElementById("s_username").innerHTML="<img width='35' height='25' src='../_1128/img/check.jpg'>";
+                }else{
+                    document.getElementById("s_username").innerHTML="用户名格式有误";
+            }
+            return flag;
+        }
+
+        //验证密码
+       function checkPassword(){
+            var password = document.getElementById("password").value;
+            var reg_password = /^\w{5,12}$/;
+            var flag = reg_password.test(password);
+            if(flag){
+                document.getElementById("s_password").innerHTML="<img width='35' height='25' src='./_1128/img/check.jpg'>";
+            }else{
+                document.getElementById("s_password").innerHTML="密码格式有误"；
+            }
+            return flag;
+        }
+    </script>
+
+
+
+</head>
+<body>
+    <div class="layout">
+        <form action="#" id="form" method="get">
+            <table>
+                <tr>
+                    <td id="login" colspan="2" align="center">登陆</td>
+                </tr>
+                <tr>
+                    <td class="left">用户名:</td>
+                    <td class="right"><input type="text" name="username" id="username">
+                    <span id="s_username" class="error"></span>  <!--⚠️这里用一个span为将来判断出对错之后放提示信息用，要不然最后还得自己建-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">密码:</td>
+                    <td class="right"><input type="password" name="password" id="password">
+                    <span id="s_password" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" id="submit" name="submit" value="提交"></td> <!--⚠️这里调用方法的时候方法名称可以不加引号，但是必须得有方法的括号-->
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

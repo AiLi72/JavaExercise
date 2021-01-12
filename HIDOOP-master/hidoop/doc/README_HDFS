@@ -1,0 +1,12 @@
+Mode d'emploie de HDFS
+
+Dans config.Project.java
+Adresse ip du NameNode : NNHOSTNAME
+
+Lancer le NameNodeMain
+
+Lancer les différents Datanodes avec la commande suivante :
+java hdfs.datanode.DataNode <ip de la machine> <port>
+
+Lancer HdfsClient avec la commande que vous voulez
+(read et delete pas encore implementé)

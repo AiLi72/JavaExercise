@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var arr1 = new Array(1,2,3);
+        var arr2 = new Array(2);  //不是只有数字2在其中，而是该数组只有两个元素，但是现在是空的
+        var arr3 = [1,2,3,4,5];
+        var arr4 = [3];
+
+        document.write(arr1.join("--")+"<br>");  // 1--2--3
+        document.write(arr2.join("*")+"<br>");    // *
+        document.write(arr3+"<br>");    // 1,2,3,4,5
+        document.write(arr4+"<br>");    //3
+        document.write(arr4.length+"<br>");     //1
+
+        arr4.push(6);   //在最后一位添加元素
+        document.write(arr4);    //3，6
+
+
+        var arr = new Array(1,"ai","adrien",true);
+        document.write(arr[10]);
+        arr[11] = "louis";
+        document.write(arr);   // 3,6undefined1,ai,adrien,true,,,,,,,,louis   我们发现数组的容量被扩充了，而且任意数据可以存放在一起，没有数据的位置为空，打印有数据的位置
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

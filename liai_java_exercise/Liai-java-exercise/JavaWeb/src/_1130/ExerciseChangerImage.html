@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--在上一个事件绑定的文件中，点击图片后更换图片，但是再点击就没有变化了，如何让图片一直点一直变化？
+需要加上一个判断的指令，如果是这样，就换成这样，如果是那样，就换成这样-->
+
+<img id="image" src="../_1128/img/background.jpg">
+
+<script>
+    var image = document.getElementById("image");
+    var flag = true;
+
+    image.onclick = function (){   //用这种方式的话就不用给这个function起名字了
+    if(flag){
+        image.src = "../_1128/img/chien.jpeg";
+        flag = false;
+      }else{
+      image.src = "../_1128/img/background.jpg";
+      flag = true;
+      }
+    }
+
+</script>
+
+</body>
+</html>

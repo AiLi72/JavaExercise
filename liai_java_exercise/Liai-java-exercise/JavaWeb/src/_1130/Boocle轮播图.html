@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+
+</head>
+<body>
+
+<img id="img1" src="../_1128/img/fille.jpeg">
+
+<script>
+
+//⚠️ var num 作为一个变量的初始值，我们为了不每次都循环它，所以要写到循环的外面，并定初值，这样就用一次之后就不用了
+     var num = 1;
+
+    function fun1(){
+
+    //当然num++要写在循环里面，每循环一次加一次
+            num ++;
+
+                //⚠️接下俩关键性的判断：判断的不是小于等于三的话干嘛，而是如果大于3我们将其变成1，注意这个逻辑
+                if (num > 3) {
+                    num = 1;
+                }
+
+                //如果num不在刚才if的范围内就直接执行下面的语句了
+            var img1 = document.getElementById("img1");
+            img1.src = "../_1128/img/"+num+".jpg";   //⚠️这里的冒号很关键！
+    }
+
+//⚠️这里换图片的方法只能有一个才能实现每隔两秒调用两秒的功能，如果我们写三个方法就乱套了
+    setInterval(fun1,2000);
+
+</script>
+
+
+</body>
+</html>

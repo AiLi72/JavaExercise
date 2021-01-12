@@ -1,0 +1,1 @@
+alert("helloJS");  /*不用写<script>标签，不要忘记分号！*/

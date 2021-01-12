@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+      <!--因为是类选择器样子，所以是.类名，⚠️选择器中的大括号里右边的数据没有双引号-->
+       .d2{
+             border = 1px solid blue;
+             width = 200px;
+             font-size = 20px;
+       }
+    </style>
+
+</head>
+<body>
+
+<div id="div1">
+    div1
+</div>
+<br>
+<div id="div2">
+    div2
+</div>
+
+    <script>
+        //修改样式方法1 ：直接修改
+        var div1 = document.getElementById("div1");
+        div1.onclick = function(){
+            div1.style.border = "1px solid pink";
+            div1.style.width = "200px";
+            div1.style.fontSize = "20px"; //当由两个字母组成时，写成这样
+        }
+
+         //修改样式方法2：通过设置一个属性值，然后再给需要修改的标签添加上这个属性值（一个类名）
+          var div2 = document.getElementById("div2");
+          div2.onclick = function(){
+          div2.className = "d2";  //本来div2是没有属性的，我们可以给他设置属性名字，当然也可以通过setAttribute
+        }
+
+    </script>
+
+</body>
+</html>

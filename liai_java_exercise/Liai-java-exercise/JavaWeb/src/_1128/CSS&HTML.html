@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS&HTML</title>
+    <!-- 第二种样式：
+        注意style的位置，我们把它放在head中，在title后面
+        <style>
+            div{
+            color:blue;
+            }
+        </style>
+        -->
+    <!--第三种样式，刚刚已经定义好了CSS外部资源，这时需要调用link标签，也是在head中-->
+    <link rel="stylesheet" href="CSS/c.css">
+</head>
+<body>
+
+<!--第一种样式 （不常用）并没有达到文本和样式分离的便捷之处
+⚠️ style中的""内都是健值对，中间用：隔开，不同的健值对之间用；隔开
+<div style="color:red";>helloCSS</div>-->
+
+<!--
+第二种样式：在head标签内定义style标签，style标签的标签体就是CSS代码,正常的文本还是写在body里，这样无论出现多少个div，都是统一好了的颜色
+但是如果我有很多个页面都需要用这个style，在每个页面都写一遍就很复杂，所以我们多用第三种样式
+-->
+<div>helloCSS</div>
+<div>helloCSS</div>
+
+<!--第三种样式
+1.定义CSS资源文件（外部）
+2.在head标签内，定义link标签，引入外部的资源文件-->
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!--     🌰九九乘法表
+          思想：表格的嵌套每当x换一个数字，我们就加一个tr,每换一个y我们就加一个td-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9*9</title>
+
+    <!--我们发现不能使用table标签修改整个边框，要具体到每个td上，所以我们使用CSS改变td的样式-->
+    <style>
+        tr{
+           height:17px;
+        }
+
+        td{
+            border:1px solid pink;
+            padding:10px;
+            font-size:25px;
+        }
+    </style>
+
+    <script>
+
+ document.write("<table align='center'>");   //⚠️这里的center外面是单引号
+
+    for(var x=1;x<10;x++){
+       document.write("<tr>");   //外部循环循环一次，生成一个tr,所以写在循环里面
+            for(var y=1;y<=x;y++){
+
+                document.write("<td>");
+                document.write(x+"*"+y+"="+(x*y)+"&nbsp;&nbsp;&nbsp;&nbsp;");
+                document.write("</td>");
+            }
+
+            //注意我们要在第二层循环的外面换行，不能在第二层最里面换行，那样每个表达式都换行了
+            //document.write("<br>");   //有个tr就不需要换行了
+       document.write("</tr>");     // 外部循环循环结束后就结束tr
+    }
+ document.write("</table>");
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

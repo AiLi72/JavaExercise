@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="button" type="button">
+
+
+
+
+<script>
+
+ //所有的window方法都可以省略window.
+    window.alert("hello");
+
+    var flag = window.confirm("vous etre sur de quitter?");  //用户点确定返回true，用户点false，返回false
+        if(flag){
+            open();  //打开一个新网页
+        }else{
+            alert("ok");
+         }
+
+    var phrase = window.prompt("please tape your name")  //返回用户输入的内容
+    alert(phrase);
+
+    //点击一个按钮做一个动作(比如打开或者关闭一个窗口)
+    document.getElementById("button").onclick = function(){
+    alert("new page");
+    }
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

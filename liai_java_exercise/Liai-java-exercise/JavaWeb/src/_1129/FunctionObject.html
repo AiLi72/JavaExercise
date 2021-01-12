@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+            /*1. 构造Function对象方式1 */
+         function fun1 (){    //⚠️function小写首字母
+            var sum =0;   //将sum定义在循环外面，定义到里面的话每循环一遍定义一遍
+
+             /*⚠️下面👇i小于的是arguments的length而不是fun1的,这时fun1的length是0，
+            因为此时没有参数，而arguments的length才是传进来的参数的个数*/
+            for (var i = 0; i < arguments.length; i++){
+                    sum += arguments[i];
+            }
+            return sum;
+         }
+
+            var sum = fun1(1,2,3);  //和Java一样，要用一个变量去接收得到的数据
+            alert(sum);    //这里和打印一样，不打印看不到方法运行的结果
+
+
+            /*2. 构造Function对象方式2 */
+
+            var fun1 = function(){
+
+            }
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

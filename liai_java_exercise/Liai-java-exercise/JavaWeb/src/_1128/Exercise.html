@@ -1,0 +1,156 @@
+<!--⚠️CSS中的备注和Java中一样/**/，不要用成html的-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+<style>
+
+    /*这里我们用一个全局控制符号*来书写，这样可以减少后面的麻烦*/
+    *{
+    margin:0px; /*使字体紧贴*/
+    padding:0px;
+    box-sizing:border-box;
+    }
+
+    /*⚠️在style里中写body的大框，代表整个页面的状态！而不是建一个整个页面大的div然后修改*/
+    body{
+    background:url("img/background.jpg") no-repeat center;
+    background-size:cover;
+    }
+
+    /*我们将白色大框div设置为class="layout"*/
+    .layout{
+    width:1300px;
+    height:600px;
+    border:8px solid #EEEEEE;
+    background-color:white;
+    margin:auto;  /*左右居中*/
+    margin-top:25px;
+    }
+
+    .class1{
+    float:left;
+    margin:35px;
+    width:250px;
+    }
+
+    .class1 > p:first-child{    /*class1下的p中的第一个孩子：也就是第一个P，这样我们就不用给每个p取名字了*/
+    color:#FFD026;     /*⚠️如果要变字体的颜色直接是color，但是要改变字体的大小是font-size*/
+    font-size:35px;
+    }
+
+     .class1>p:last-child{
+    color:#A6A6A6;
+    font-size:35px;
+    }
+
+    .class2{
+    float:left;      /*⚠️这里也是left而不是center*/
+    font-size:35px; /*这里的字体并不包含td_right的部分*/
+    width:550px
+    margin-top:15px;
+    }
+
+    .class3{
+    float:right;
+    margin:15px;
+    }
+
+    .class3>p{          /*class3下的p子类*/
+    font-size:25px;
+    color:blue;
+    }
+
+    .class3 p a {      /*⚠️class3下的p子类中的a子类，没有冒号：，另外注意这里不能用a.link{}*/
+    color:pink;
+    }
+
+    .td_left{       /*注意学习这种思维方式，将一个table表分为左部分和右部分，方便管理*/
+    width:80px;        /*这里只是表格的大小而不是文字的大小*/
+    text-align:right;    /*文字居中方式*/
+    height:70px;     /*这里起到行间距的作用，表格中每一行的大小都可以改变*/
+    }
+
+    .td_right{
+    padding-left:30px;   /*⚠️要改变一个表格中单元格中的文字的边距，要在这个单元格中padding，我们发现即使没有div,也可以使用边距*/
+    }
+
+    /*我们将具有很多共性的特点都提取出来作为class，比较小众的作为id*/
+    /*⚠️以下的id指的是有td_right每个单元格，而不是其中的文字*/
+    #username,#password,#email,#date{
+    width:311px;
+    height:42px;
+    border:3px solid #A6A6A6;
+    /*设置边框圆角*/
+    border-radius:5px;
+    padding-left:10px;   /*和刚才一样，设置单元格中的文字边距*/
+    font-size:24px;      /*设置所有在单元格中的文字大小*/
+    }
+
+    /*没有共性的id单独拿出来写*/
+    #submit{
+    width:150px;
+    height:32px;
+    background-color:#FFD026;
+    border:1px solid #FFD026;
+    border-radius:5px;
+    color:black;
+    font-size:25px;
+    margin-top:45px; /*虽然这里没有div,但是他的上方是表格，也可以改变边距，一定要搞清楚是哪个边距*/
+    }
+
+</style>
+</head>
+<body>
+                <!--到了html中，注释又变成了这样
+                注意input标签里的属性是type而不是style-->
+    <div class="layout">
+       <div class="class1">
+           <p>new user</p>
+           <p>user register</p>
+       </div>
+        <div class="class2"> <!--注意在这个模块里可以不直接建立表格，再建立一个div之后再从表单开始写form！-->
+           <!-- <div>-->
+                <form>
+                    <table>
+                        <tr>
+                            <td class="td_left"><label for="username">username</label></td>
+                            <td class="td_right"><input type="text" name="username" id="username" placeholder="please tape your username"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label for="password">password</label></td>
+                            <td class="td_right"><input type="password" name="password" id="password" placeholder="please tape your password"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label for="email">Email</label></td>
+                            <td class="td_right"><input type="email" name="email" id="email" placeholder="please tape your email"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label>Sex</label></td>
+                            <td class="td_right"><input type="radio" name="sex" value="male"> male
+                                                 <input type="radio" name="sex" value="female"> female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_left"><label>Date</label></td>
+                            <td class="td_right"><input type="date" name="date" id="date"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="submit" id="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            <!--</div>-->
+        </div>
+        <div class="class3">
+            <p>already an account?
+                <a href="#">login here</a>  <!--a标签里面的herf本应后面跟的是到达的新页面，这里我们先省略-->
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var reg1 = new RegExp("\\w{1,5}");    //⚠️这里有两根反斜线，一根的话在字符串里代表转义字符，把它转成别的意思了
+        var reg2 = /^\w{1,5}\d{2,9}$/;     // ^以...开头，$以...结尾 ，⚠️没有双引号
+
+        document.write(reg1.test("psd"));     //true
+        document.write(reg2.test("pnimj95421"));   // true
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+ahello
+5.5
+c
+je suis pas dans le console

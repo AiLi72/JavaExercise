@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--为了获取元素对象，我们需要用到所需元素的id,所以在这里我们都要加上id-->
+<img id="image" src="../_1128/img/background.jpg">;
+<h1 id="title"></h1>
+
+<script>
+    //通过ID获取h1标签对象
+    var title = document.getElementById("title");     //.getElementById是获取元素的方法，左边用一个值去接受他
+    title.innerHTML = "feuille";                      //.innerHTML是修改元素的方法，修改完直接会出现在之前h1的位置，不需要写输出语句
+</script>
+
+</body>
+</html>

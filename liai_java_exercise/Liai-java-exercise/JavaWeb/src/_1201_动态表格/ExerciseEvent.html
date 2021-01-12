@@ -1,0 +1,111 @@
+<!--表格全选，全不选-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        table{
+            border:2px solid pink;
+            width:500px;
+            margin:auto;
+        }
+
+        <!--td,th可以写在一起，注意打括号里面不可以写注释-->
+        td,th{
+            border:2px solid pink;
+            text-align:center;
+        }
+        div{
+            text-align:center;
+            margin-top:20px;
+        }
+    </style>
+
+    <script>
+
+        /* 分析：
+            1.全选： 获取所有的checkbox，遍历所有checkbox,设置每一个状态为 : checked
+        */
+
+        //1.在页面加载完后绑定事件
+        window.onload = function(){
+            //2.给全选按钮绑定单击事件
+            document.getElementById("selectAll").onclick = function(){
+                    //获取所有的checkbox
+                    var cbs = document.getElementsByName("cb");  //注意这里得到了很多数据，所以不可以直接做其他的动作，要遍历取其中的每一个数据
+                    //遍历
+                        for (var i = 0; i < cbs.length;i++){
+                            cbs[i].checked = true;   //在文档中显示：如果被选中，则checked状态为true，否则为false
+                        }
+            }
+
+            //3.给全不选按钮绑定单击事件
+            document.getElementById("selectNone").onclick = function(){
+                    //获取所有的checkbox
+                    var cbs = document.getElementsByName("cb");  //注意这里得到了很多数据，所有不可以直接做其他的动作，要遍历取其中的每一个数据
+                    //遍历
+                        for (var i = 0; i < cbs.length;i++){
+                            cbs[i].checked = false;   //在文档中显示：如果被选中，则checked状态为true，否则为false
+                        }
+            }
+            //4.给反选按钮绑定单击事件
+            document.getElementById("Inverse").onclick = function(){
+                    //获取所有的checkbox
+                    var cbs = document.getElementsByName("cb");  //注意这里得到了很多数据，所有不可以直接做其他的动作，要遍历取其中的每一个数据
+                    //遍历
+                        for (var i = 0; i < cbs.length;i++){
+                            /*
+                            if(cbs[i].checked){
+                                    cbs[i].checked = false;
+                                }else{
+                                    cbs[i].checked = true;
+                            }
+                            */
+                            cbs[i].checked = ! cbs[i].checked;
+                        }
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<table>
+    <caption>table of student</caption>  <!--表格的标题-->
+    <tr>
+        <th><input type="checkbox" name="cb"></th>
+        <th>id</th>
+        <th>name</th>
+        <th>gender</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>1</td>
+        <td>aili</td>
+        <td>f</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>2</td>
+        <td>adrien</td>
+        <td>m</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></td>
+        <td>3</td>
+        <td>jenny</td>
+        <td>f</td>
+    </tr>
+
+</table>
+
+<div>
+    <input type="button" id="selectAll" value="selectAll">
+    <input type="button" id="selectNone" value="selectNone">
+    <input type="button" id="Inverse" value="Inverse">
+</div>
+</body>
+</html>
